@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body > header {
+    background-color: dodgerblue;
+    padding: 18px;
+    color: white;
+}
+
+body>header {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+body>footer {
+    background-color: dodgerblue;
+}
+
+body > footer > p {
+    padding: 18px;
+    color: white;
+    text-align: center;
+}
+
+body>header>nav>ul>li>a {
+    color: white;
+}
+
+nav > ul >li {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+
+body>main>section {
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+body>main>section>aside {
+    margin-left: 10%;
+}
+
+body>main>section>main {
+    margin-left: 10%;
+}
+
+.news { 
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+body>main>section>main>section>div>section {
+    margin-left: 15px;
+}
+
+body>main>article {
+    width: 70%;
+    margin: auto;
+}
+
+.comment-section {
+    display: inline-block;
+    margin-left: 220px;
+}
+
+.something {
+    display: inline-block;
+}
+
+.please {
+    margin-left: 220px;
+}
+
+.comments {
+    border-top: 1px solid;
+}
